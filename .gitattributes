@@ -1,0 +1,12 @@
+# See https://github.com/github/linguist
+# Exclude build artifacts
+package-lock.json linguist-generated
+*.html linguist-vendored
+
+*.png binary
+
+*.jpeg binary
+*.map linguist-generated
+dist/* linguist-vendored
+**/*.js linguist-detectable
+# eof 1b460974
